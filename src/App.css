@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+	margin:0 auto;
 }
 
 .App-logo {
@@ -20,3 +21,61 @@
 .App-link {
   color: #09d3ac;
 }
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.light{
+	background-color:#fff;
+	color:#000;
+}
+.dark{
+	background-color:#000;
+	color:#fff;
+}
+.calclight{
+	background-color:#f0f0f0;
+	width:100%;
+	border:2px solid #e8e3e3;
+	
+}
+.calcdark{
+	background-color:#666;
+	width:100%;
+	border:2px solid #4a4949;
+	
+}
+.result{
+	text-align:right;
+	font-weight:20px;
+}
+
+.button-g {background-color: #4CAF50;} 
+.button-l {background-color:#f0f0f0; color:black;} 
+.button-b {background-color: #008CBA;} /* Blue */
+.button-r {background-color: #f44336;}
+.button-d{background-color:#666;}/
+.button-gr {background-color: #e7e7e7; color: black;}
+.scientific{
+	display:block;
+	margin:10px auto 0 auto;
+}
+.keypad{
+	width:25%;
+	height:50px
+}
+.calculatorapp{
+	width:100%;
+	height:100%;
+	position:absolute;
+	margin:0 auto;
+}
+
+
+
